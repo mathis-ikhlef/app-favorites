@@ -1,0 +1,71 @@
+/* Reset des styles par défaut du navigateur */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    background-color: #da027c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #da027c; 
+    color: white;
+     padding: 10px ;
+    font-size: 16px;
+    background-color: #da027c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.content-insta {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3em;
+}
+
+.description-insta {
+    margin-bottom: 20px;
+}
+
+.description-insta h2 {
+    color: #405de6;
+}
+
+.box1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Ajoutez d'autres styles au besoin */
